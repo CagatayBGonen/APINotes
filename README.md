@@ -22,11 +22,15 @@ This is my notes for API.
 ### HTTP Request Methods:
 (In computer programming, create, read, update, and delete (CRUD) are the four basic operations of persistent storage.)
 1) GET Method: It is for reading data from database (Read --> R in CRUD)
+    - To be able to use GET Method we need just "endpoint"
 2) POST Method: It is for creating new data in database (Create --> C in CRUD)
+    - To be able to send POST Request we need Endpoint + Request Body
 3) PUT Method: It is for update in database in database (Update --> U in CRUD)
+    - To be able to send PUT Request we need Endpoint + Fully Request Body
 4) PATCH(Yama) Match: It is for partial update in database (Update --> U in CRUD)
+    - To be able to send PATCH Request we need Endpoint + Partial Request Body
 5) DELETE Method: It is for deleting data from database (Delete --> D in CRUD)
-   
+    - To be able to delete a record in database we need Endpoint
 ### HTTP Status Code:
 - 1XX : It means the request is received and the process is continuing
 - 2XX : It means the action was successfully recieved, understood, and accepted
