@@ -35,4 +35,9 @@ This is my notes for API.
 - 5XX : It means server is down
 
 Note: In API testing, status code must be tested first. If the status code is 2XX then you can test the details.
+## POSTMAN
+It is an application to test endpoints of an API manually
+### REST ASSURED LIBRARY
+It is an library in Java, it is used to test endpoints in automation
+- We first use Postman manually, then according to result we write our automation script. 
 
